@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    
+
+    <title>
+      互联网协议 | 知行合一 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="John Doe">
+    
+    
+
+    <meta name="description" content="常见的互联网协议，如TCP&#x2F;IP协议簇、http1.1&#x2F;2.0协议、https等">
+<meta name="keywords" content="网络协议">
+<meta property="og:type" content="article">
+<meta property="og:title" content="互联网协议 | 知行合一">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;09&#x2F;%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE&#x2F;index.html">
+<meta property="og:site_name" content="知行合一">
+<meta property="og:description" content="常见的互联网协议，如TCP&#x2F;IP协议簇、http1.1&#x2F;2.0协议、https等">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;09&#x2F;%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE&#x2F;tcpImg.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;09&#x2F;%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE&#x2F;tcpTxImg.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;09&#x2F;%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE&#x2F;tcpws.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;09&#x2F;%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE&#x2F;tcphs.png">
+<meta property="og:updated_time" content="2019-12-26T11:14:11.241Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;09&#x2F;%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE&#x2F;tcpImg.jpg">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+</head>
+<body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">知行合一</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">
+          自我管理，知识小记
+        </p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">首页</a></li>
+              
+                
+                <li class="navigation__item"><a href="/about" title="" class="">关于</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">互联网协议</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2019-12-09" class="post-meta__date date">2019-12-09</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+            <font class="categories">
+            &#8226; 分类:
+            <a class="categories-link" href="/categories/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/">网络协议</a>
+            </font>
+          
+
+          
+             &#8226; 标签:
+            <font class="tags">
+              <a class="tags-link" href="/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/" rel="tag">网络协议</a>
+            </font>
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <h1 id="常见协议"><a href="#常见协议" class="headerlink" title="常见协议"></a>常见协议</h1><ol>
+<li>TCP/IP协议簇</li>
+<li>http1.1/2.0协议</li>
+<li>https</li>
+<li>Oauth 2.0</li>
+<li>Rest</li>
+</ol>
+<h2 id="1-TCP-IP协议簇"><a href="#1-TCP-IP协议簇" class="headerlink" title="1.TCP/IP协议簇"></a>1.TCP/IP协议簇</h2><p> TCP/IP 协议栈是一系列网络协议的总和，是构成网络通信的核心骨架，它定义了电子设备如何连入因特网，以及数据如何在它们之间进行传输。TCP/IP 协议采用4层结构，分别是应用层、传输层、网络层和链路层，每一层都呼叫它的下一层所提供的协议来完成自己的需求。由于我们大部分时间都工作在应用层，下层的事情不用我们操心；通俗一点讲就是，一个主机的数据要经过哪些过程才能发送到对方的主机上</p>
+<ul>
+<li>TCP/IP协议分层  </li>
+</ul>
+<div align=center>
+   <img src="/2019/12/09/%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE/tcpImg.jpg" class="" title="TCP&#x2F;IP协议分层">  
+</div>  
+<center>
+   tcp协议对应osi协议分层情况
+</center>  
+<br/>
+<br/>
+<div align=center>
+   <img src="/2019/12/09/%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE/tcpTxImg.jpg" class="" title="TCP通信数据流">
+</div>  
+<br/>
+<center>
+   一个完整的TCP通信数据流  
+</center>
+<br/>
+
+
+
+<ul>
+<li><p>链路层<br>　　网络通信就是把有特定意义的数据通过物理介质传送给对方，单纯的发送 0 和 1 是没有意义的，要传输有意义的数据，就需要以字节为单位对 0 和 1 进行分组，并且要标识好每一组电信号的信息特征，然后按照分组的顺序依次发送。以太网规定一组电信号就是一个数据包，一个数据包被称为一帧， 制定这个规则的协议就是以太网协议。<br>所以链路层的主要工作就是对电信号进行分组并形成具有特定意义的数据帧，然后以广播的形式通过物理介质发送给接收方。</p>
+</li>
+<li><p>网络层<br>经过上面过程需要考虑如下问题</p>
+<blockquote>
+<p>1.发送者如何知道接收者的MAC地址？<br>2.发送者如何知道接收者和自己同属一个子网？<br>3.如果接收者和自己不在同一个子网，数据包如何发给对方？</p>
+</blockquote>
+<ul>
+<li>IP协议<br>　通过前面的介绍我们知道，MAC地址只与厂商有关，与所处的网络无关，所以无法通过MAC地址来判断两台主机是否属于同一个子网。因此，网络层引入了IP协议，制定了一套新地址，使得我们能够区分两台主机是否同属一个网络，这套地址就是网络地址，也就是所谓的IP地址。<br>　IP地址目前有两个版本，分别是IPv4和IPv6，IPv4是一个32位的地址，常采用4个十进制数字表示。IP协议将这个32位的地址分为两部分，前面部分代表网络地址，后面部分表示该主机在局域网中的地址。由于各类地址的分法不尽相同，以C类地址192.168.24.1为例，其中前24位就是网络地址，后8位就是主机地址。因此， 如果两个IP地址在同一个子网内，则网络地址一定相同。为了判断IP地址中的网络地址，IP协议还引入了子网掩码， IP地址和子网掩码通过按位与运算后就可以得到网络地址。<br>　由于发送者和接收者的IP地址是已知的(应用层的协议会传入)， 因此我们只要通过子网掩码对两个IP地址进行AND运算后就能够判断双方是否在同一个子网了。</li>
+<li>ARP协议<br>　即地址解析协议，是根据IP地址获取MAC地址的一个网络层协议。其工作原理如下：<br>　ARP首先会发起一个请求数据包，数据包的首部包含了目标主机的IP地址，然后这个数据包会在链路层进行再次包装，生成以太网数据包，最终由以太网广播给子网内的所有主机，每一台主机都会接收到这个数据包，并取出标头里的IP地址，然后和自己的IP地址进行比较，如果相同就返回自己的MAC地址，如果不同就丢弃该数据包。ARP接收返回消息，以此确定目标机的MAC地址；与此同时，ARP还会将返回的MAC地址与对应的IP地址存入本机ARP缓存中并保留一定时间，下次请求时直接查询ARP缓存以节约资源。cmd输入 arp -a 就可以查询本机缓存的ARP数据。</li>
+<li>路由协议<br>　　通过ARP协议的工作原理可以发现，ARP的MAC寻址还是局限在同一个子网中，因此网络层引入了路由协议，首先通过IP协议来判断两台主机是否在同一个子网中，如果在同一个子网，就通过ARP协议查询对应的MAC地址，然后以广播的形式向该子网内的主机发送数据包；如果不在同一个子网，以太网会将该数据包转发给本子网的网关进行路由。网关是互联网上子网与子网之间的桥梁，所以网关会进行多次转发，最终将该数据包转发到目标IP所在的子网中，然后再通过ARP获取目标机MAC，最终也是通过广播形式将数据包发送给接收方。<br>而完成这个路由协议的物理设备就是路由器，在错综复杂的网络世界里，路由器扮演者交通枢纽的角色，它会根据信道情况，选择并设定路由，以最佳路径来转发数据包</li>
+<li>IP数据包<br>　IP数据包由首部和数据两部分组成，首部长度为20个字节，主要包含了目标IP地址和源IP地址，目标IP地址是网关路由的线索和依据；数据部分的最大长度为65515字节，理论上一个IP数据包的总长度可以达到65535个字节，而以太网数据包的最大长度是1500个字符，如果超过这个大小，就需要对IP数据包进行分割，分成多帧发送。</li>
+</ul>
+</li>
+</ul>
+<p>所以，网络层的主要工作是定义网络地址，区分网段，子网内MAC寻址，对于不同子网的数据包进行路由</p>
+<ul>
+<li><p>传输层<br>　链路层定义了主机的身份，即MAC地址， 而网络层定义了IP地址，明确了主机所在的网段，有了这两个地址，数据包就从可以从一个主机发送到另一台主机。但实际上数据包是从一个主机的某个应用程序发出，然后由对方主机的应用程序接收。而每台电脑都有可能同时运行着很多个应用程序，所以当数据包被发送到主机上以后，是无法确定哪个应用程序要接收这个包。<br>　因此传输层引入了UDP协议来解决这个问题，为了给每个应用程序标识身份，UDP协议定义了端口，同一个主机上的每个应用程序都需要指定唯一的端口号，并且规定网络中传输的数据包必须加上端口信息。 这样，当数据包到达主机以后，就可以根据端口号找到对应的应用程序了<br>UDP数据包由首部和数据两部分组成，首部长度为8个字节，主要包括源端口和目标端口；数据最大为65527个字节，整个数据包的长度最大可达到65535个字节。<br>　UDP协议比较简单，实现容易，但它没有确认机制， 数据包一旦发出，无法知道对方是否收到，因此可靠性较差，为了解决这个问题，提高网络可靠性，TCP协议就诞生了，TCP即传输控制协议，是一种面向连接的、可靠的、基于字节流的通信协议。简单来说TCP就是有确认机制的UDP协议，每发出一个数据包都要求确认，如果有一个数据包丢失，就收不到确认，发送方就必须重发这个数据包<br>TCP的三次握手和四次挥手</p>
+<div align=center>
+ <img src="/2019/12/09/%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE/tcpws.png" class="" title="TCP三次握手">
+</div>
+<br />
+<center>
+TCP三次握手
+</center>
+<br />
+<br />
+<div align=center>
+<img src="/2019/12/09/%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE/tcphs.png" class="" title="TCP四次挥手"></div>
+<br />
+<center>
+TCP四次挥手
+</center>
+</li>
+<li><p>应用层<br>　理论上讲，有了以上三层协议的支持，数据已经可以从一个主机上的应用程序传输到另一台主机的应用程序了，但此时传过来的数据是字节流，不能很好的被程序识别，操作性差。因此，应用层定义了各种各样的协议来规范数据格式，常见的有 HTTP、FTP、SMTP 等</p>
+</li>
+<li><p>全流程<br>　首先我们梳理一下每层模型的职责：</p>
+<ul>
+<li>链路层：对0和1进行分组，定义数据帧，确认主机的物理地址，传输数据；</li>
+<li>网络层：定义IP地址，确认主机所在的网络位置，并通过IP进行MAC寻址，对外网数据包进行路由转发；</li>
+<li>传输层：定义端口，确认主机上应用程序的身份，并将数据包交给对应的应用程序；</li>
+<li>应用层：定义数据格式，并按照对应的格式解读数据。<br>然后再把每层模型的职责串联起来，用一句通俗易懂的话讲就是：<br>　<code>当你输入一个网址并按下回车键的时候，首先，应用层协议对该请求包做了格式定义；紧接着传输层协议加上了双方的端口号，确认了双方通信的应用程序；然后网络协议加上了双方的IP地址，确认了双方的网络位置；最后链路层协议加上了双方的MAC地址，确认了双方的物理位置，同时将数据进行分组，形成数据帧，采用广播方式，通过传输介质发送给对方主机。而对于不同网段，该数据包首先会转发给网关路由器，经过多次转发后，最终被发送到目标主机。目标机接收到数据包后，采用对应的协议，对帧数据进行组装，然后再通过一层一层的协议进行解析，最终被应用层的协议解析并交给服务器处理。</code>  </li>
+</ul>
+</li>
+</ul>
+<h2 id="2-HTTP协议"><a href="#2-HTTP协议" class="headerlink" title="2.HTTP协议"></a>2.HTTP协议</h2><p>http(超文本传输协议)，在创建之初就是为了将超文本标记语言（html）文档从web服务端传送给浏览器的客户端。随着我们网页内容变得复杂，不单单有文字、图片，还有css，js等等渲染，ajax的出现、移动互联网的高速发展，随着时代的变迁，http也一直升级优化，丰富自己的功能特性  </p>
+<ul>
+<li>HTTP的局限性  <ul>
+<li>带宽<br>目前阶段网络带宽基本已经很高，带宽的影响小了不少   </li>
+<li>延迟<br>浏览器阻塞：浏览器会限定对同一网站的连接保持一定的连接数限制   dns查询：dns系统需要实现域名、IP的转换，提高转换速度很重要（dns缓存的出现）<br>建立连接：http传输文件需要利用tcp的三次握手连接，这就会存在和三次握手一样的问题，建立连接需要经过多次确认消耗时间。   </li>
+</ul>
+</li>
+<li>HTTP1.0：<br>　　最早在1996年在网页中使用，内容简单，所以浏览器的每次请求都需要与服务器建立一个TCP连接，服务器处理完成后立即断开TCP连接（无连接），服务器不跟踪每个客户端也不记录过去的请求（无状态）  </li>
+<li>HTTP1.1<br>　到1999年广泛在各大浏览器网络请求中使用，HTTP/1.0中默认使用Connection: close。在HTTP/1.1中已经默认使用Connection: keep-alive（长连接），避免了连接建立和释放的开销，但服务器必须按照客户端请求的先后顺序依次回送相应的结果，以保证客户端能够区分出每次请求的响应内容。通过Content-Length字段来判断当前请求的数据是否已经全部接收。不允许同时存在两个并行的响应。  </li>
+<li>HTTP2.0<br>HTTP/2引入二进制数据帧和流的概念，其中帧对数据进行顺序标识，（流（stream）：已建立连接上的双向字节流；消息：与逻辑消息对应的完整的一系列数据帧；帧：HTTP2.0通信的最小单位，每个帧包含帧头部，至少也会标识出当前帧所属的流（stream id））这样浏览器收到数据之后，就可以按照序列对数据进行合并，而不会出现合并后数据错乱的情况。同样是因为有了序列，服务器就可以并行的传输数据，这就是流所做的事情。这些数据帧都在一个tcp连接（可以承载任意数量的双向数据流）上并行发送   </li>
+<li>HTTP1.1的改进  <ul>
+<li>缓存处理：1.1添加更多的缓存控制策略（如：Entity tag，If-Match）</li>
+<li>网络连接的优化：1.1支持断点续传</li>
+<li>错误状态码的增多：1.1新增了24个错误状态响应码，丰富的错误码更加明确各个状态</li>
+<li>Host头处理：支持Host头域，不在以IP为请求方标志</li>
+<li>长连接：减少了建立和关闭连接的消耗和延迟，串行化  </li>
+</ul>
+</li>
+<li>HTTP2.0的改进  <ul>
+<li>新的传输格式：2.0使用二进制格式，1.0依然使用基于文本格式</li>
+<li>多路复用：连接共享，不同的request可以使用同一个连接传输（最后根据每个request上的id号组合成正常的请求）并行化</li>
+<li>header压缩：由于1.X中header带有大量的信息，并且得重复传输，2.0使用encoder来减少需要传输的hearder大小</li>
+<li>服务端推送：服务端推送能把客户端所需要的资源伴随着index.html一起发送到客户端，省去了客户端重复请求的步骤。正因为没有发起请求，建立连接等操作，所以静态资源通过服务端推送的方式可以极大地提升速度
+　　</li>
+</ul>
+</li>
+</ul>
+
+  </section>
+
+  <section class="post-comments">
+
+    <!-- 将评论系统（例如Disqus、多说、友言、畅言等）提供的代码片段粘贴在这里 -->
+    
+</section>
+
+
+</article>
+
+
+            <footer class="footer">
+
+    <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno" target="_blank" rel="noopener">Huno</a></span>
+    
+</footer>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    
+    
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+
+</body>
+</html>
